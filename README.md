@@ -1,12 +1,12 @@
 # LAB04 Ramos Mamani Crishman
 ## 1. IA‑Colores (jojeda5171/IA-Colores)
 
-¿Qué hace?
+### ¿Qué hace?
 Es un sistema que clasifica colores en imágenes usando algoritmos de machine learning (KNN y SVM), y emplea YOLO para detectar personas en tiempo real, luego aplica la clasificación de colores al torso y piernas de las personas detectadas
 github.com+1github.com+1
 .
 
-Principales componentes:
+### Principales componentes:
 
 knn.py, svm.py, svm1.py: scripts de entrenamiento de clasificadores (KNN/SVM) tras preprocesar imágenes (filtro de mediana, normalización, aplanamiento).
 
@@ -16,7 +16,7 @@ Carpeta Data/Colors/: contiene conjuntos de imágenes etiquetadas por color.
 
 Carpeta Models/: almacena los modelos entrenados.
 
-Aplicación en diseño y animación 2D/3D:
+### Aplicación en diseño y animación 2D/3D:
 
 Selección automática de paletas: analizar escenas renderizadas para extraer colores predominantes en vestuario, fondo, objetos.
 
@@ -28,7 +28,7 @@ Posproducción: clasificación automática de partes (ropa, piel) para ajustes s
 
 ## 2. Co‑Tracker (facebookresearch/co‑tracker)
 
-¿Qué hace?
+### ¿Qué hace?
 Es un modelo basado en Transformers que permite seguir cualquier punto (pixel) en un video. Integra ventajas de Optical Flow y ofrece seguimiento:
 
 de un pixel,
@@ -40,7 +40,7 @@ github.com
 github.com+6github.com+6github.com+6
 .
 
-Versiones y avances:
+### Versiones y avances:
 
 CoTracker2: seguimiento de miles de puntos (hasta 265×265) con eficiencia de memoria.
 
@@ -56,7 +56,7 @@ Demo interactiva via Gradio y notebooks disponibles para pruebas
 github.com+2github.com+2github.com+2
 .
 
-Aplicación en diseño y animación 2D/3D:
+### Aplicación en diseño y animación 2D/3D:
 
 Rotoscopia avanzada: trazado preciso de contornos y puntos de interés en escenas animadas para máscaras o tracking.
 
